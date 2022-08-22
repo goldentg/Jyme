@@ -27,6 +27,10 @@ public class Main {
         handler.registerCommand(new userInfo());
         handler.registerCommand(new ban());
         handler.registerCommand(new profile());
+        handler.registerCommand(new say());
+        handler.registerCommand(new poll());
+        handler.registerCommand(new stop());
+        //handler.registerCommand(new chuck());
 
 
 
