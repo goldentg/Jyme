@@ -21,6 +21,7 @@ public class Main {
         handler.registerCommand(new botInfo());
         handler.registerCommand(new help(handler));
         handler.registerCommand(new serverInfo());
+        handler.registerCommand(new coinflip());
         //handler.registerCommand(new ban());
 
 
