@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="678cc791-0a94-4943-9810-de0642211ce2" name="Changes" comment="Coinflip command">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Jyme/commands/eightball.java" afterDir="false" />
+    <list default="true" id="678cc791-0a94-4943-9810-de0642211ce2" name="Changes" comment="8-Ball command">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Jyme/commands/userInfo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Jyme/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Jyme/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Jyme/commands/eightball.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Jyme/commands/eightball.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,7 +173,7 @@
       <workItem from="1661124002550" duration="160000" />
       <workItem from="1661124172252" duration="5751000" />
       <workItem from="1661133620390" duration="43000" />
-      <workItem from="1661137478687" duration="1543000" />
+      <workItem from="1661137478687" duration="2373000" />
     </task>
     <task id="LOCAL-00001" summary="serverinfo">
       <created>1661128843163</created>
@@ -195,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661130355477</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="8-Ball command">
+      <created>1661139064749</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1661139064749</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,6 +224,7 @@
     <MESSAGE value="serverinfo" />
     <MESSAGE value="gitignore" />
     <MESSAGE value="Coinflip command" />
-    <option name="LAST_COMMIT_MESSAGE" value="Coinflip command" />
+    <MESSAGE value="8-Ball command" />
+    <option name="LAST_COMMIT_MESSAGE" value="8-Ball command" />
   </component>
 </project>

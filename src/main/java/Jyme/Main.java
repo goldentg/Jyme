@@ -24,6 +24,7 @@ public class Main {
         handler.registerCommand(new coinflip());
         handler.registerCommand(new hug());
         handler.registerCommand(new eightball());
+        handler.registerCommand(new userInfo());
         //handler.registerCommand(new ban());
 
 

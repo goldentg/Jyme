@@ -12,6 +12,7 @@ import org.javacord.api.event.message.MessageCreateEvent;
 public class eightball implements CommandExecutor {
     @Command(aliases = "8ball", description = "Displays a message from a magic 8-ball")
     public void onEightball(MessageCreateEvent message) {
+
         String[] responses = new String[]{
                         //no responses
                         "My reply is no",
@@ -44,8 +45,6 @@ public class eightball implements CommandExecutor {
         int random = (int) (Math.random() * responses.length);
         //System.out.println(responses[random]);
         message.getChannel().sendMessage(createEmbed(responses[random]));
-
-
     }
 
     private EmbedBuilder createEmbed(String response) {
@@ -54,6 +53,5 @@ public class eightball implements CommandExecutor {
                 .setDescription(response)
                 .setColor(new Color(11, 199, 193))
                 .setTimestampToNow();
-
     }
 }
