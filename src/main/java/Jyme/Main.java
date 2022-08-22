@@ -26,6 +26,7 @@ public class Main {
         handler.registerCommand(new eightball());
         handler.registerCommand(new userInfo());
         handler.registerCommand(new ban());
+        handler.registerCommand(new profile());
 
 
 
