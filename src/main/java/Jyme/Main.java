@@ -30,6 +30,7 @@ public class Main {
         handler.registerCommand(new say());
         handler.registerCommand(new poll());
         handler.registerCommand(new stop());
+        handler.registerCommand(new servers());
         //handler.registerCommand(new chuck());
 
 

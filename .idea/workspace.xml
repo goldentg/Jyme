@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="678cc791-0a94-4943-9810-de0642211ce2" name="Changes" comment="profile command">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Jyme/commands/say.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Jyme/commands/stop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Jyme/commands/uptime.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+    <list default="true" id="678cc791-0a94-4943-9810-de0642211ce2" name="Changes" comment="more commands">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Jyme/commands/servers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Jyme/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Jyme/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Jyme/commands/Chuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Jyme/commands/chuck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Jyme/commands/botInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Jyme/commands/botInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Jyme/commands/poll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Jyme/commands/poll.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,7 +172,7 @@
       <workItem from="1661124172252" duration="5751000" />
       <workItem from="1661133620390" duration="43000" />
       <workItem from="1661137478687" duration="5474000" />
-      <workItem from="1661191101089" duration="16468000" />
+      <workItem from="1661191101089" duration="17240000" />
     </task>
     <task id="LOCAL-00001" summary="serverinfo">
       <created>1661128843163</created>
@@ -237,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661204548231</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="more commands">
+      <created>1661210301004</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1661210301004</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -263,6 +263,7 @@
     <MESSAGE value="Update packages" />
     <MESSAGE value="improvements" />
     <MESSAGE value="profile command" />
-    <option name="LAST_COMMIT_MESSAGE" value="profile command" />
+    <MESSAGE value="more commands" />
+    <option name="LAST_COMMIT_MESSAGE" value="more commands" />
   </component>
 </project>
