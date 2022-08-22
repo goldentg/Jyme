@@ -22,6 +22,7 @@ public class Main {
         handler.registerCommand(new help(handler));
         handler.registerCommand(new serverInfo());
         handler.registerCommand(new coinflip());
+        handler.registerCommand(new hug());
         //handler.registerCommand(new ban());
 
 
