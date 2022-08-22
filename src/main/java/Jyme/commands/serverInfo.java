@@ -15,41 +15,17 @@ public class serverInfo implements CommandExecutor {
     public String onServerInfo(MessageCreateEvent message) {
         if (message.isServerMessage()) {
             Optional<Server> srv = message.getServer();
-            //String serverOwner = String.valueOf(message.getServer().map(server -> server.getOwner().));
-           // Optional<String> serverName = Optional.ofNullable(String.valueOf(message.getServer().map(server -> server.getName())));
-            //Optional<Object> serverName = srv.map(server -> server.getName());
+            Server s = message.getServer().get();
 
-            //good
+
             String serverName = srv.map(server -> server.getName()).orElse("No server name");
-
-
-           // String channels = String.valueOf(message.getServer().map(server -> server.getChannels().size()));
-            //Optional<Integer> channels = message.getServer().map(server -> server.getChannels().size());
-            //Optional<String> afkChannel = Optional.ofNullable(String.valueOf(message.getServer().map(Server::getAfkChannel)));
-
-            //Optional<String> boostLevel = Optional.ofNullable(String.valueOf(message.getServer().map(Server::getBoostLevel)));
-
-           // String serverOwner = String.valueOf(message.getServer().map(Server::getOwner));
-            //Optional<User> serverOwner = String.valueOf(srv.map(server -> server.getOwner()).orElse("No server owner");)
-
-            //good
+            int roleCount = s.getRoles().size();
+            int voiceChannels = s.getVoiceChannels().size();
+            User owner = s.getOwner().orElse(s.requestOwner().join());
             int serverChannels = message.getServer().map(server -> server.getChannels().size()).orElse(0);
-            //Optional<String> memberCount = Optional.ofNullable(String.valueOf(message.getServer().map(Server::getMemberCount)));
-            //String region = String.valueOf(message.getServer().map(server -> server.getRegion()));
-
-            //good
             int memberCountInt = message.getServer().map(Server::getMemberCount).orElse(0);
 
-            //Optional<Object> serverIcon = message.getServer().map(server -> server.getIcon());
-
-
-            // String serverName = message.getServer().getName();
-
-            //String serverOwner = message.getServer();
-            //String toString = "name: " + serverName + ", Channels: " + serverChannels + ", Member count: " + memberCountInt;
-           // return toString;
-
-            message.getChannel().sendMessage(createEmbed(serverName, serverChannels, memberCountInt, message));
+            message.getChannel().sendMessage(createEmbed(serverName, serverChannels, memberCountInt, message, roleCount, voiceChannels, owner));
 
         } else {
             return "You are not sending the command in a server";
@@ -57,10 +33,10 @@ public class serverInfo implements CommandExecutor {
         return null;
     }
 
-    private EmbedBuilder createEmbed(String serverName, int serverChannels, int memberCountInt, MessageCreateEvent message) {
+    private EmbedBuilder createEmbed(String serverName, int serverChannels, int memberCountInt, MessageCreateEvent message, int roleCount, int voiceChannel, User owner) {
         return new EmbedBuilder()
                 .setTitle("Server Information")
-                .setDescription("Server name: " + serverName + "\n" + "Channels: " + serverChannels + "\n" + "Member count: " + memberCountInt)
+                .setDescription("Server name: " + serverName + "\n" + "Channels: " + serverChannels + "\n" + "Member count: " + memberCountInt + "\n" + "Roles: " + roleCount + "\n" + "Voice channels: " + voiceChannel + "\n" + "Server owner: " + owner.getNicknameMentionTag())
                 .setColor(new Color(11, 199, 193))
                 .setFooter(message.getMessageAuthor().getDisplayName(), message.getMessageAuthor().getAvatar())
                 .setTimestampToNow();
