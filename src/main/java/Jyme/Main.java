@@ -12,7 +12,6 @@ public class Main {
     public static String prefix = "!";
 
     public static void main(String[] args) {
-        //DiscordApi client = new DiscordApiBuilder().setToken(System.getenv().get("TOKEN")).login().join();
         DiscordApi client = new DiscordApiBuilder().setToken(Token.token).login().join();
 
         CommandHandler handler = new JavacordHandler(client);
