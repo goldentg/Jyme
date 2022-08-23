@@ -31,6 +31,8 @@ public class Main {
         handler.registerCommand(new poll());
         handler.registerCommand(new stop());
         handler.registerCommand(new servers());
+        handler.registerCommand(new uptime());
+        handler.registerCommand(new host());
         //handler.registerCommand(new chuck());
 
 
