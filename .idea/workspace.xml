@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="678cc791-0a94-4943-9810-de0642211ce2" name="Changes" comment="hug command">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Jyme/commands/host.java" afterDir="false" />
+    <list default="true" id="678cc791-0a94-4943-9810-de0642211ce2" name="Changes" comment="host command">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Jyme/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Jyme/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Jyme/commands/hug.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Jyme/commands/hug.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Jyme/commands/stop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Jyme/commands/stop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Jyme/commands/uptime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Jyme/commands/uptime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Jyme/commands/host.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Jyme/commands/host.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Jyme/commands/servers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Jyme/commands/servers.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,7 +173,7 @@
       <workItem from="1661124172252" duration="5751000" />
       <workItem from="1661133620390" duration="43000" />
       <workItem from="1661137478687" duration="3783000" />
-      <workItem from="1661285186584" duration="3977000" />
+      <workItem from="1661285186584" duration="5131000" />
     </task>
     <task id="LOCAL-00001" summary="serverinfo">
       <created>1661128843163</created>
@@ -213,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661139974762</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="host command">
+      <created>1661289198054</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1661289198054</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,6 +240,7 @@
     <MESSAGE value="Coinflip command" />
     <MESSAGE value="8-Ball command" />
     <MESSAGE value="userinfo command" />
-    <option name="LAST_COMMIT_MESSAGE" value="userinfo command" />
+    <MESSAGE value="host command" />
+    <option name="LAST_COMMIT_MESSAGE" value="host command" />
   </component>
 </project>
