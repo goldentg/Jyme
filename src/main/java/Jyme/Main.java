@@ -6,12 +6,14 @@ import de.btobastian.sdcf4j.CommandHandler;
 import de.btobastian.sdcf4j.handler.JavacordHandler;
 import org.javacord.api.DiscordApi;
 import org.javacord.api.DiscordApiBuilder;
+import org.javacord.api.entity.activity.ActivityType;
 
 import java.util.concurrent.ExecutionException;
 
 public class Main {
 
     public static String prefix = "!";
+    public static String activity = "Testing Jyme";
 
     public static void main(String[] args) {
         DiscordApi client = new DiscordApiBuilder().setToken(Token.token).login().join();
@@ -38,6 +40,10 @@ public class Main {
         handler.registerCommand(new servers());
         handler.registerCommand(new uptime());
         handler.registerCommand(new host());
+        handler.registerCommand(new invite());
+        handler.registerCommand(new play());
+        handler.registerCommand(new disconnect());
+        handler.registerCommand(new binary());
         //handler.registerCommand(new chuck());
 
 
@@ -66,6 +72,15 @@ public class Main {
                 throw new RuntimeException(e);
             }
         });
+
+        //Set bot activity
+    try {
+        client.updateActivity(ActivityType.PLAYING, activity);
+        System.out.println("Bot activity set to: " + activity);
+    } catch (Exception e) {
+    System.out.println("Something went wrong while setting bot activity");
+}
+
         //Create server on change name listener
         client.addServerChangeNameListener(event -> System.out.println("Server " + event.getOldName() + "has changed name to: " + event.getNewName()));
     }

@@ -5,9 +5,12 @@ import de.btobastian.sdcf4j.CommandExecutor;
 import org.javacord.api.DiscordApi;
 import org.javacord.api.entity.message.embed.EmbedBuilder;
 import org.javacord.api.entity.server.Server;
+import org.javacord.api.entity.user.User;
 import org.javacord.api.event.message.MessageCreateEvent;
 
 import java.awt.*;
+import java.util.Optional;
+import java.util.stream.Stream;
 
 public class servers implements CommandExecutor {
     @Command(aliases = "servers", description = "Displays server info (bot owner only)")
@@ -15,8 +18,13 @@ public class servers implements CommandExecutor {
         if (message.getMessageAuthor().isBotOwner()) {
             String servers = "";
             int users = 0;
+            //int actualUsers = 0;
+            //int botUsers = 0;
             int serverc = 0;
             for (Server s : api.getServers()) {
+
+                //actualUsers = (int) (s.getMemberCount() - botUsers);
+
                 servers += "\n" + s.getName() + "(" + s.getMemberCount() + ")";
                 users += s.getMemberCount();
                 serverc++;

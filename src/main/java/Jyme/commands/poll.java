@@ -17,7 +17,7 @@ public class poll implements CommandExecutor {
         String upVote = "⬆";
         String downVote = "⬇";
         String pollMessage = message.getReadableMessageContent().substring(6);
-        message.getChannel().sendMessage(createEmbed(message, pollMessage));
+        message.getChannel().sendMessage(createEmbed(message, pollMessage)).thenCompose(message1 -> message1.addReactions(upVote, downVote));
 
     }
 
