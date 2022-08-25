@@ -32,6 +32,7 @@ public class Main {
         handler.registerCommand(new hug());
         handler.registerCommand(new eightball());
         handler.registerCommand(new userInfo());
+        handler.registerCommand(new kick());
         handler.registerCommand(new ban());
         handler.registerCommand(new profile());
         handler.registerCommand(new say());
@@ -44,6 +45,7 @@ public class Main {
         handler.registerCommand(new play());
         handler.registerCommand(new disconnect());
         handler.registerCommand(new binary());
+        handler.registerCommand(new wolfram());
         //handler.registerCommand(new chuck());
 
 

@@ -15,20 +15,26 @@ public class play implements CommandExecutor {
     @Command(aliases = "play", description = "plays music")
     public void onPlay(MessageCreateEvent message, Message msg, DiscordApi api) {
         if (message.getMessageAuthor().isBotOwner()) {
-            User user = msg.getUserAuthor().get();
-            ServerVoiceChannel vc;
-            if (user.isConnected(user.getConnectedVoiceChannel(message.getServer().get()).get())) {
-                vc = user.getConnectedVoiceChannel(message.getServer().get()).get();
-                if (vc.canConnect(api.getYourself())) {
-                    vc.connect().thenAccept(audioConnection -> {
-                    //CODE
-                    }).exceptionally(e -> {
-                        e.printStackTrace();
-                        return null;
-                    });
+            if (message.isServerMessage()) {
+                User user = msg.getUserAuthor().get();
+                ServerVoiceChannel vc;
+                if (user.isConnected(user.getConnectedVoiceChannel(message.getServer().get()).get())) {
+                    vc = user.getConnectedVoiceChannel(message.getServer().get()).get();
+                    if (vc.canConnect(api.getYourself())) {
+                        vc.connect().thenAccept(audioConnection -> {
+                            //CODE
+                        }).exceptionally(e -> {
+                            e.printStackTrace();
+                            return null;
+                        });
+                    } else {
+                        message.getChannel().sendMessage("I cannot connect to this voice channel");
+                    }
                 } else {
-                    message.getChannel().sendMessage("I cannot connect to this voice channel");
+                    message.getChannel().sendMessage("You are not connected to a voice channel");
                 }
+            } else {
+                message.getChannel().sendMessage("You must enter this command in a server");
             }
         } else {
             message.getChannel().sendMessage("This command is not ready for public use yet");
