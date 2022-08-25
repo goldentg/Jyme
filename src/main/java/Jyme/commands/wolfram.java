@@ -26,7 +26,7 @@ public class wolfram implements CommandExecutor {
 
     private Message msg;
 
-    @Command(aliases = {"wolfram", "wa"}, usage = "!wolfram <Query>", description = "Search wolframalpha")
+    @Command(aliases = {"wolfram", "wa"}, description = "Search wolframalpha")
     public void onCommand(DiscordApi api, User user, TextChannel channel, String[] args, MessageCreateEvent m) {
         if (m.getMessageAuthor().isBotOwner()) {
             long epoch = System.currentTimeMillis();

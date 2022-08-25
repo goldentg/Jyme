@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="678cc791-0a94-4943-9810-de0642211ce2" name="Changes" comment="more commands and fixes">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Jyme/commands/kick.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Jyme/commands/wolfram.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Jyme/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Jyme/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Jyme/commands/ban.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Jyme/commands/ban.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Jyme/commands/play.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Jyme/commands/play.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Jyme/commands/say.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Jyme/commands/say.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Jyme/commands/wolfram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Jyme/commands/wolfram.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,7 +174,7 @@
       <workItem from="1661133620390" duration="43000" />
       <workItem from="1661137478687" duration="3783000" />
       <workItem from="1661285186584" duration="12564000" />
-      <workItem from="1661371188843" duration="12465000" />
+      <workItem from="1661371188843" duration="13237000" />
     </task>
     <task id="LOCAL-00001" summary="serverinfo">
       <created>1661128843163</created>
@@ -242,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661386980900</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="more commands and fixes">
+      <created>1661393193464</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1661393193464</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
