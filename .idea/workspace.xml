@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="678cc791-0a94-4943-9810-de0642211ce2" name="Changes" comment="more commands and fixes">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Jyme/commands/say.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Jyme/commands/say.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Jyme/commands/wolfram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Jyme/commands/wolfram.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +78,7 @@
     ]
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.bot">
     <configuration name="Jyme.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Jyme.Main" />
       <module name="Jyme" />
@@ -175,6 +174,9 @@
       <workItem from="1661137478687" duration="3783000" />
       <workItem from="1661285186584" duration="12564000" />
       <workItem from="1661371188843" duration="13237000" />
+      <workItem from="1666588127818" duration="934000" />
+      <workItem from="1666670396939" duration="94000" />
+      <workItem from="1666709590060" duration="250000" />
     </task>
     <task id="LOCAL-00001" summary="serverinfo">
       <created>1661128843163</created>
