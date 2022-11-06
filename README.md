@@ -62,7 +62,8 @@ Information of the bot getting added or removed from a server as well as a serve
 *** Temporary installation instructions ***
 
 Use the `build.gradle` file to get required dependencies. Create the file `/Jyme/src/main/java/Jyme/secret/Token.java` and add the following within the created file:
-```package Jyme.secret;
+```
+package Jyme.secret;
 
 public interface Token {
     String token = "YOUR-TOKEN-HERE";
