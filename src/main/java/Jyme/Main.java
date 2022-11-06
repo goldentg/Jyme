@@ -13,7 +13,7 @@ import java.util.concurrent.ExecutionException;
 public class Main {
 
     public static String prefix = "!";
-    public static String activity = "Testing Jyme";
+    public static String activity = "!help for help";
 
     public static void main(String[] args) {
         DiscordApi client = new DiscordApiBuilder().setToken(Token.token).login().join();
