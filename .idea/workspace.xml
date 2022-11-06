@@ -4,9 +4,45 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="678cc791-0a94-4943-9810-de0642211ce2" name="Changes" comment="more commands and fixes">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="678cc791-0a94-4943-9810-de0642211ce2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Jyme/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Jyme/commands/ban.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Jyme/commands/binary.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Jyme/commands/botInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Jyme/commands/chuck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Jyme/commands/coinflip.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Jyme/commands/disconnect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Jyme/commands/eightball.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Jyme/commands/help.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Jyme/commands/host.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Jyme/commands/hug.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Jyme/commands/invite.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Jyme/commands/kick.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Jyme/commands/ping.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Jyme/commands/play.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Jyme/commands/poll.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Jyme/commands/profile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Jyme/commands/say.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Jyme/commands/serverInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Jyme/commands/servers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Jyme/commands/stop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Jyme/commands/uptime.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Jyme/commands/userInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Jyme/commands/wolfram.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Jyme/secret/Token.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test.log" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
