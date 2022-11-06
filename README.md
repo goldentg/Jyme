@@ -74,3 +74,5 @@ You can then run the bot from the `Main.java` file.
 ## **Support**
 ***
 This is a work in progress. If you are having issues with the functionality of the bot please [create an issue ticket](https://github.com/goldentg/Jyme/issues). You can reach out for support or suggestions/recommendations in the [discussion board](https://github.com/goldentg/Jyme/discussions)
+
+If you are looking for a more advanced bot, [Check out my C# bot Nyme](https://github.com/goldentg/Nyme)
