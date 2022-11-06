@@ -1,4 +1,4 @@
-<h1 align="center">Nyme</h1>
+<h1 align="center">Jyme</h1>
 
 ## **Table of Contents**
 ***
