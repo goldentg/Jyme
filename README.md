@@ -61,8 +61,15 @@ Information of the bot getting added or removed from a server as well as a serve
 ***
 *** Temporary installation instructions ***
 
-Use the `build.gradle` file to get required dependencies. Add your bot token to the `/Jyme/src/main/java/Jyme/secret/Token.java` file and run the bot from the `Main.java` file. 
+Use the `build.gradle` file to get required dependencies. Create the file `/Jyme/src/main/java/Jyme/secret/Token.java` and add the following within the created file:
+```package Jyme.secret;
+
+public interface Token {
+    String token = "YOUR-TOKEN-HERE";
+}
+```
+You can then run the bot from the `Main.java` file. 
 
 ## **Support**
 ***
-This is a work in progress. If you are having issues with the functionality of the bot please create an issue ticket. You can reach out for support or suggestions/recommendations in the discussion board
+This is a work in progress. If you are having issues with the functionality of the bot please [create an issue ticket](https://github.com/goldentg/Jyme/issues). You can reach out for support or suggestions/recommendations in the [discussion board](https://github.com/goldentg/Jyme/discussions)
