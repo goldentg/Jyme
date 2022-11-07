@@ -55,6 +55,7 @@ This bot is currently still in heavy development. Some commands may not work as 
 | serverinfo | Displays some info about the server |
 | userinfo | Display some information about a mentioned user |  
 | uptime | See how long the bot has been running |
+| report | Makes it easy for members to report a bug for this bot | 
 
 
 ## **Events**
@@ -74,6 +75,11 @@ public interface Token {
 }
 ```
 You can then run the bot from the `Main.java` file. 
+
+## **Configuration**
+***
+Most of the configuration can be done from within the `Main.java` file, you can change the activity string by changing the `public static String activity = "!help for help";` string to whatever you wish. you can also change the prefix here by changing the `public static String prefix = "!";` string. I am actively working on making this bot as customizable as possible and many more options will be found here soon.  
+***
 
 ## **Support**
 ***
