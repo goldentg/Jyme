@@ -1,6 +1,6 @@
 <h1 align="center">Jyme</h1>
 
-
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/c6ac604d18a445ae99f34cda5c802ce1)](https://www.codacy.com/gh/goldentg/Jyme/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=goldentg/Jyme&amp;utm_campaign=Badge_Grade)
 ***
 This bot is currently still in heavy development. Some commands may not work as intended and new features are being added often. If you experience any issues with the bot you can speed up the development process by posting an issue on the issue board
 ***
@@ -78,7 +78,7 @@ You can then run the bot from the `Main.java` file.
 
 ## **Configuration**
 ***
-Most of the configuration can be done from within the `Main.java` file, you can change the activity string by changing the `public static String activity = "!help for help";` string to whatever you wish. you can also change the prefix here by changing the `public static String prefix = "!";` string. I am actively working on making this bot as customizable as possible and many more options will be found here soon.  
+Most of the configuration can be done from within the `Main.java` file, you can change the bot activity status and type as well as logging settings. I am actively working on making this bot as customizable as possible and many more options will be found here soon.  
 ***
 
 ## **Support**
@@ -88,6 +88,6 @@ This is a work in progress. If you are having issues with the functionality of t
 If you are looking for a more advanced bot, [Check out my C# bot Nyme](https://github.com/goldentg/Nyme)
 
 ***
-Powered by
+Made with
 ![IntelliJ IDEA logo](https://resources.jetbrains.com.cn/storage/products/company/brand/logos/IntelliJ_IDEA.png)
 ***
