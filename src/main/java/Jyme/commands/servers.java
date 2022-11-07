@@ -5,12 +5,10 @@ import de.btobastian.sdcf4j.CommandExecutor;
 import org.javacord.api.DiscordApi;
 import org.javacord.api.entity.message.embed.EmbedBuilder;
 import org.javacord.api.entity.server.Server;
-import org.javacord.api.entity.user.User;
 import org.javacord.api.event.message.MessageCreateEvent;
 
 import java.awt.*;
-import java.util.Optional;
-import java.util.stream.Stream;
+
 
 public class servers implements CommandExecutor {
     @Command(aliases = "servers", description = "Displays server info (bot owner only)")

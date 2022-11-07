@@ -8,7 +8,7 @@ import org.javacord.api.event.message.MessageCreateEvent;
 import java.awt.*;
 import java.lang.management.ManagementFactory;
 import java.lang.management.RuntimeMXBean;
-import java.util.Date;
+
 
 public class uptime implements CommandExecutor {
     @Command(aliases = "uptime", description = "Displays bot uptime")

@@ -1,11 +1,10 @@
 package Jyme.commands;
 
-import Jyme.Main;
 import de.btobastian.sdcf4j.Command;
 import de.btobastian.sdcf4j.CommandExecutor;
 import org.javacord.api.entity.message.embed.EmbedBuilder;
 import org.javacord.api.event.message.MessageCreateEvent;
-import org.javacord.api.listener.message.MessageCreateListener;
+
 
 import java.awt.*;
 

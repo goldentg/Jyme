@@ -3,8 +3,6 @@ package Jyme.commands;
 import de.btobastian.sdcf4j.Command;
 import de.btobastian.sdcf4j.CommandExecutor;
 import org.javacord.api.DiscordApi;
-import org.javacord.api.audio.AudioSource;
-import org.javacord.api.audio.AudioSourceBase;
 import org.javacord.api.entity.channel.ServerVoiceChannel;
 import org.javacord.api.entity.message.Message;
 import org.javacord.api.entity.user.User;

@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="678cc791-0a94-4943-9810-de0642211ce2" name="Changes" comment="Activity Type customization">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Jyme/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Jyme/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="678cc791-0a94-4943-9810-de0642211ce2" name="Changes" comment="Added log customization as well as some code quality enhancements" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,7 +76,7 @@
     ]
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.bot">
     <configuration name="Jyme.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Jyme.Main" />
       <module name="Jyme" />
@@ -179,6 +176,7 @@
       <workItem from="1666670396939" duration="94000" />
       <workItem from="1666709590060" duration="250000" />
       <workItem from="1667848203775" duration="3139000" />
+      <workItem from="1667856879869" duration="690000" />
     </task>
     <task id="LOCAL-00001" summary="serverinfo">
       <created>1661128843163</created>
@@ -341,7 +339,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667850412611</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Added log customization as well as some code quality enhancements">
+      <created>1667857504062</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1667857504062</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -375,6 +380,7 @@
     <MESSAGE value="Added a &quot;report a bug&quot; command" />
     <MESSAGE value="minor README update" />
     <MESSAGE value="Activity Type customization" />
-    <option name="LAST_COMMIT_MESSAGE" value="Activity Type customization" />
+    <MESSAGE value="Added log customization as well as some code quality enhancements" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added log customization as well as some code quality enhancements" />
   </component>
 </project>
