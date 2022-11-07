@@ -23,10 +23,10 @@ public class userInfo implements CommandExecutor {
             String userAvatar = message.getMessageAuthor().getAvatar().getUrl().toString();
             String userDiscriminator = String.valueOf(message.getMessageAuthor().getDiscriminator());
 
-            String userJoined = message.getMessageAuthor().getCreationTimestamp().toString();
+            //String userJoined = message.getMessageAuthor().getCreationTimestamp().toString();
             String userJoinedDate = message.getMessageAuthor().getCreationTimestamp().toString().substring(0, 10);
-            String userJoinedTime = message.getMessageAuthor().getCreationTimestamp().toString().substring(11, 16);
-            String userJoinedDateTime = message.getMessageAuthor().getCreationTimestamp().toString().substring(0, 16);
+            //String userJoinedTime = message.getMessageAuthor().getCreationTimestamp().toString().substring(11, 16);
+            //String userJoinedDateTime = message.getMessageAuthor().getCreationTimestamp().toString().substring(0, 16);
             message.getChannel().sendMessage(createEmbed(message, userName, userID, userAvatar, userDiscriminator, userJoinedDate));
         } else if (msg.getMentionedUsers().size() == 1) {
             String username = targetUser.getDisplayName(server);
