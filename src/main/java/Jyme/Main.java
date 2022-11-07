@@ -11,6 +11,7 @@ import org.javacord.api.entity.activity.ActivityType;
 import java.util.concurrent.ExecutionException;
 
 public class Main {
+
 //CUSTOMIZATION:
 
 
@@ -26,6 +27,12 @@ public class Main {
     //LISTENING
     //STREAMING
     //WATCHING
+
+    //Log Settings:
+    public static Boolean serverLeaveLogs = true;
+    public static Boolean serverJoinLogs = true;
+    public static Boolean serverNameChangeLogs = true;
+
 
 
 //END CUSTOMIZATION
@@ -64,32 +71,36 @@ public class Main {
         handler.registerCommand(new report());
         //handler.registerCommand(new chuck());
 
-
+        //output status log
         System.out.println("Bot is online!");
 
-        //client.addServerJoinListener(event -> System.out.println("Bot has joined a server!\nServer: " + event.getServer().getName()));
+
         //Create on server join listener
-        client.addServerJoinListener(event -> {
-            System.out.println("Bot has joined a server!\nServer: " + event.getServer().getName());
-            try {
-                client.getOwner().get().sendMessage("Bot has joined a server: " + event.getServer().getName() + " With " + event.getServer().getMemberCount() + " members");
-            } catch (InterruptedException e) {
-                throw new RuntimeException(e);
-            } catch (ExecutionException e) {
-                throw new RuntimeException(e);
-            }
-        });
+
+        //if server join logs are enabled
+        if (serverJoinLogs) {
+            client.addServerJoinListener(event -> {
+                System.out.println("Bot has joined a server!\nServer: " + event.getServer().getName());
+                try {
+                    client.getOwner().get().sendMessage("Bot has joined a server: " + event.getServer().getName() + " With " + event.getServer().getMemberCount() + " members");
+                } catch (InterruptedException | ExecutionException e) {
+                    throw new RuntimeException(e);
+                }
+            });
+        }
         //Create on server leave listener
-        client.addServerLeaveListener(event -> {
-            System.out.println("Bot has been removed from a server!\nServer: " + event.getServer().getName());
-            try {
-                client.getOwner().get().sendMessage("Bot has been removed from a server: " + event.getServer().getName());
-            } catch (InterruptedException e) {
-                throw new RuntimeException(e);
-            } catch (ExecutionException e) {
-                throw new RuntimeException(e);
-            }
-        });
+
+        //if server leave logs enabled
+        if (serverLeaveLogs) {
+            client.addServerLeaveListener(event -> {
+                System.out.println("Bot has been removed from a server!\nServer: " + event.getServer().getName());
+                try {
+                    client.getOwner().get().sendMessage("Bot has been removed from a server: " + event.getServer().getName());
+                } catch (InterruptedException | ExecutionException e) {
+                    throw new RuntimeException(e);
+                }
+            });
+        }
 
         //Set bot activity
         if (activityType != null) {
@@ -108,6 +119,10 @@ public class Main {
         }
 
         //Create server on change name listener
-        client.addServerChangeNameListener(event -> System.out.println("Server " + event.getOldName() + "has changed name to: " + event.getNewName()));
+
+        //if server name change logs enabled
+        if (serverNameChangeLogs) {
+            client.addServerChangeNameListener(event -> System.out.println("Server " + event.getOldName() + "has changed name to: " + event.getNewName()));
+        }
     }
 }
