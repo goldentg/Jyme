@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="678cc791-0a94-4943-9810-de0642211ce2" name="Changes" comment="Added a &quot;report a bug&quot; command" />
+    <list default="true" id="678cc791-0a94-4943-9810-de0642211ce2" name="Changes" comment="minor README update">
+      <change beforePath="$PROJECT_DIR$/src/main/java/Jyme/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Jyme/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -175,7 +177,7 @@
       <workItem from="1666588127818" duration="934000" />
       <workItem from="1666670396939" duration="94000" />
       <workItem from="1666709590060" duration="250000" />
-      <workItem from="1667848203775" duration="1036000" />
+      <workItem from="1667848203775" duration="1776000" />
     </task>
     <task id="LOCAL-00001" summary="serverinfo">
       <created>1661128843163</created>
@@ -324,7 +326,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667849221429</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="minor README update">
+      <created>1667849609230</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1667849609230</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -356,6 +365,7 @@
     <MESSAGE value="Default activity string" />
     <MESSAGE value="Small fixes" />
     <MESSAGE value="Added a &quot;report a bug&quot; command" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added a &quot;report a bug&quot; command" />
+    <MESSAGE value="minor README update" />
+    <option name="LAST_COMMIT_MESSAGE" value="minor README update" />
   </component>
 </project>

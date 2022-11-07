@@ -11,10 +11,24 @@ import org.javacord.api.entity.activity.ActivityType;
 import java.util.concurrent.ExecutionException;
 
 public class Main {
+//CUSTOMIZATION:
 
+
+    //SET PREFIX
     public static String prefix = "!";
+    //SET ACTIVITY STATUS
     public static String activity = "!help for help";
+    //SET ACTIVITY TYPE
+    public static String activityType = "PLAYING";
+    //Activity Type accepted options (PLAYING) is default
+    //PLAYING
+    //COMPETING
+    //LISTENING
+    //STREAMING
+    //WATCHING
 
+
+//END CUSTOMIZATION
     public static void main(String[] args) {
         DiscordApi client = new DiscordApiBuilder().setToken(Token.token).login().join();
 
@@ -78,12 +92,20 @@ public class Main {
         });
 
         //Set bot activity
-    try {
-        client.updateActivity(ActivityType.PLAYING, activity);
-        System.out.println("Bot activity set to: " + activity);
-    } catch (Exception e) {
-    System.out.println("Something went wrong while setting bot activity");
-}
+        if (activityType != null) {
+            if (activity != null) {
+                try {
+                    client.updateActivity(ActivityType.valueOf(activityType), activity);
+                    System.out.println("Bot activity set to: " + activity + ", With activity type: " + activityType);
+                } catch (Exception e) {
+                    System.out.println("Something went wrong while setting bot activity");
+                }
+            } else {
+                System.out.println("Activity settings are missing or incorrect, skipping activity initialization");
+            }
+        } else {
+            System.out.println("Activity settings are missing or incorrect, skipping activity initialization");
+        }
 
         //Create server on change name listener
         client.addServerChangeNameListener(event -> System.out.println("Server " + event.getOldName() + "has changed name to: " + event.getNewName()));
