@@ -20,10 +20,11 @@ public class Main {
 
         CommandHandler handler = new JavacordHandler(client);
         handler.setDefaultPrefix(prefix);
+        //ideas
         //server invite command, if no invite create one and send it otherwise send existing (bot owner only)
         //dm bot owner on guild join/leave
         //more listeners?
-        //total members online in server command and filter bot/actual users
+        //total members online in server command and filter bot/actual user
         handler.registerCommand(new ping());
         handler.registerCommand(new botInfo());
         handler.registerCommand(new help(handler));
@@ -46,6 +47,7 @@ public class Main {
         handler.registerCommand(new disconnect());
         handler.registerCommand(new binary());
         handler.registerCommand(new wolfram());
+        handler.registerCommand(new report());
         //handler.registerCommand(new chuck());
 
 
