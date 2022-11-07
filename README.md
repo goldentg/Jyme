@@ -1,12 +1,16 @@
 <h1 align="center">Jyme</h1>
 
+
+***
+This bot is currently still in heavy development. Some commands may not work as intended and new features are being added often. If you experience any issues with the bot you can speed up the development process by posting an issue on the issue board
+***
+
 ## **Table of Contents**
 ***
 * [Commands](#commands)
 * [Events](#events)
 * [Installation](#installation)
-
-This bot is currently still in heavy development. Some commands may not work as intended and new features are being added often. If you experience any issues with the bot you can speed up the development process by posting an issue on the issue board
+***
 
 ## **Commands**
 ***
@@ -76,3 +80,8 @@ You can then run the bot from the `Main.java` file.
 This is a work in progress. If you are having issues with the functionality of the bot please [create an issue ticket](https://github.com/goldentg/Jyme/issues). You can reach out for support or suggestions/recommendations in the [discussion board](https://github.com/goldentg/Jyme/discussions)
 
 If you are looking for a more advanced bot, [Check out my C# bot Nyme](https://github.com/goldentg/Nyme)
+
+***
+Powered by
+![IntelliJ IDEA logo](https://resources.jetbrains.com.cn/storage/products/company/brand/logos/IntelliJ_IDEA.png)
+***

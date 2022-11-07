@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="678cc791-0a94-4943-9810-de0642211ce2" name="Changes" comment="Getting the project ready for public release" />
+    <list default="true" id="678cc791-0a94-4943-9810-de0642211ce2" name="Changes" comment="Default activity string">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -295,7 +298,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667777713252</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Default activity string">
+      <created>1667777813771</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1667777813771</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -324,6 +334,7 @@
     <MESSAGE value="more commands and fixes" />
     <MESSAGE value="fixes" />
     <MESSAGE value="Getting the project ready for public release" />
-    <option name="LAST_COMMIT_MESSAGE" value="Getting the project ready for public release" />
+    <MESSAGE value="Default activity string" />
+    <option name="LAST_COMMIT_MESSAGE" value="Default activity string" />
   </component>
 </project>

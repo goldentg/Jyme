@@ -19,7 +19,7 @@ public class chuck implements CommandExecutor {
         HttpRequestFactory requestFactory = new NetHttpTransport().createRequestFactory();
         HttpRequest request = requestFactory.buildGetRequest(new GenericUrl("https://api.chucknorris.io/jokes/random"));
         String response =  request.execute().parseAsString();
-        DeserializationContext objectMapper = null;
+        //DeserializationContext objectMapper = null;
         return message.getChannel().sendMessage(request.toString());
         //return null;
     }
