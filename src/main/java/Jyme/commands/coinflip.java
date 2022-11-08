@@ -11,14 +11,16 @@ import java.util.Random;
 public class coinflip implements CommandExecutor {
     @Command(aliases = "coinflip", description = "Flips a coin")
     public void onCoinflip(MessageCreateEvent message) {
+        //random number generator
         int coinSide = new Random().nextInt(2);
         String coinSideString = "";
-
+            //if 0, heads
            if (coinSide == 0) {
                coinSideString = "Heads";
-               } else if (coinSide == 1) {
+               } else if (coinSide == 1) { //if 1, tails
                 coinSideString = "Tails";
         }
+        //send message
         message.getChannel().sendMessage(createEmbed(message, coinSideString));
     }
 

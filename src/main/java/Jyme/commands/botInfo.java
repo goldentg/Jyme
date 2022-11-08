@@ -10,6 +10,7 @@ import java.awt.*;
 public class botInfo implements CommandExecutor {
     @Command(aliases = "botinfo", description = "Displays information about the bot")
     public void onBotInfo(MessageCreateEvent message) {
+    //send the message
     message.getChannel().sendMessage(createEmbed(message));
     }
 

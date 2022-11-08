@@ -29,6 +29,9 @@ public class Main {
     //WATCHING
 
     //Log Settings:
+    //Options:
+    //true
+    //false
     public static Boolean serverLeaveLogs = true;
     public static Boolean serverJoinLogs = true;
     public static Boolean serverNameChangeLogs = true;
@@ -37,9 +40,12 @@ public class Main {
 
 //END CUSTOMIZATION
     public static void main(String[] args) {
+        // Launch the bot
         DiscordApi client = new DiscordApiBuilder().setToken(Token.token).login().join();
 
+        //create command handler
         CommandHandler handler = new JavacordHandler(client);
+        //set prefix
         handler.setDefaultPrefix(prefix);
         //ideas
         //server invite command, if no invite create one and send it otherwise send existing (bot owner only)
@@ -104,10 +110,14 @@ public class Main {
         }
 
         //Set bot activity
-        if (activityType != null) {
-            if (activity != null) {
+        //Make sure activity type is valid
+        if (activityType != "") {
+            //if activity type is valid
+            if (activity != "") {
                 try {
+                    //set activity
                     client.updateActivity(ActivityType.valueOf(activityType), activity);
+                    //output status log
                     System.out.println("Bot activity set to: " + activity + ", With activity type: " + activityType);
                 } catch (Exception e) {
                     System.out.println("Something went wrong while setting bot activity");

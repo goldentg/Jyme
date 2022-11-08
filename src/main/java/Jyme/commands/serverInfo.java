@@ -13,18 +13,19 @@ import java.util.Optional;
 public class serverInfo implements CommandExecutor {
     @Command(aliases = "serverinfo", description = "Displays information about the server")
     public String onServerInfo(MessageCreateEvent message) {
+        //if the message was sent in a server
         if (message.isServerMessage()) {
             Optional<Server> srv = message.getServer();
             Server s = message.getServer().get();
 
-
+            //collect the server information
             String serverName = srv.map(server -> server.getName()).orElse("No server name");
             int roleCount = s.getRoles().size();
             int voiceChannels = s.getVoiceChannels().size();
             User owner = s.getOwner().orElse(s.requestOwner().join());
             int serverChannels = message.getServer().map(server -> server.getChannels().size()).orElse(0);
             int memberCountInt = message.getServer().map(Server::getMemberCount).orElse(0);
-
+            //send the message
             message.getChannel().sendMessage(createEmbed(serverName, serverChannels, memberCountInt, message, roleCount, voiceChannels, owner));
 
         } else {

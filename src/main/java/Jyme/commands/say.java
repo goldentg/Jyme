@@ -11,11 +11,15 @@ import java.awt.*;
 public class say implements CommandExecutor {
     @Command(aliases = "say", description = "Says a message")
     public void onSay(MessageCreateEvent message, Message msg) {
+        //collect the arguments
         String args = msg.getContent().substring(5);
+        //if author is a server admin
         if(msg.getAuthor().isServerAdmin()) {
+            //if the message was sent in a server
             if (message.isServerMessage()) {
+                //delete the command message
                 message.deleteMessage();
-               // message.getChannel().sendMessage(args);
+                //send the message
                 message.getChannel().sendMessage(createEmbed(args, message));
             } else {
                 message.getChannel().sendMessage("You must send this message in a server");

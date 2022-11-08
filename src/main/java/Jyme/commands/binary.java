@@ -11,9 +11,12 @@ import java.awt.*;
 public class binary implements CommandExecutor {
     @Command(aliases = "binary", description = "Converts a message to binary")
     public void onBinary (MessageCreateEvent message, Message msg) {
+        //store args in a string
         String input = msg.getContent().substring(8);
+        //create a string builder
         StringBuilder sb = new StringBuilder();
 
+        //convert string to binary
         char[] chars = input.toCharArray();
         for (char c: chars) {
             String binary = Integer.toBinaryString(c);
@@ -22,6 +25,7 @@ public class binary implements CommandExecutor {
             sb.append(output);
             sb.append(" ");
         }
+        //send converted binary message
         message.getChannel().sendMessage(createEmbed(sb.toString(), input, message));
     }
 

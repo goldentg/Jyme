@@ -13,27 +13,28 @@ import java.awt.*;
 public class userInfo implements CommandExecutor {
     @Command(aliases = "userinfo", description = "Displays information about the user")
     public void onUserInfo(MessageCreateEvent message, Message msg) {
+        //collect a mentioned user
         User targetUser = msg.getMentionedUsers().get(0);
+        //collect the server
         Server server = message.getServer().get();
 
         if (msg.getMentionedUsers().size() == 0) {
-            //message.getChannel().sendMessage(createEmbed(message));
+            //gather info about the user who sent the message
             String userName = message.getMessageAuthor().getDisplayName();
             String userID = message.getMessageAuthor().getIdAsString();
             String userAvatar = message.getMessageAuthor().getAvatar().getUrl().toString();
             String userDiscriminator = String.valueOf(message.getMessageAuthor().getDiscriminator());
-
-            //String userJoined = message.getMessageAuthor().getCreationTimestamp().toString();
             String userJoinedDate = message.getMessageAuthor().getCreationTimestamp().toString().substring(0, 10);
-            //String userJoinedTime = message.getMessageAuthor().getCreationTimestamp().toString().substring(11, 16);
-            //String userJoinedDateTime = message.getMessageAuthor().getCreationTimestamp().toString().substring(0, 16);
+            //send the message
             message.getChannel().sendMessage(createEmbed(message, userName, userID, userAvatar, userDiscriminator, userJoinedDate));
         } else if (msg.getMentionedUsers().size() == 1) {
+            //gather info about the user who was mentioned
             String username = targetUser.getDisplayName(server);
             String userId = targetUser.getIdAsString();
             String userAvatar = targetUser.getAvatar().getUrl().toString();
             String userDiscriminaor = targetUser.getDiscriminator();
             String userJoinedDate = targetUser.getCreationTimestamp().toString().substring(0, 16);
+            //send the message
             message.getChannel().sendMessage(createEmbed(message, username, userId, userAvatar, userDiscriminaor, userJoinedDate));
 
         }

@@ -11,12 +11,12 @@ import java.awt.*;
 public class profile implements CommandExecutor {
     @Command(aliases = "profile", description = "Displays a users profile pic")
     public void onProfile(MessageCreateEvent message, Message msg) {
+        //if no user is mentioned, display the profile of the user who sent the message
         if (msg.getMentionedUsers().size() == 0) {
-            //get own profile pic
             String avatar = message.getMessageAuthor().getAvatar().getUrl().toString();
             String username = message.getMessageAuthor().getDiscriminatedName();
             message.getChannel().sendMessage(createEmbed(message, avatar, username));
-        } else if (msg.getMentionedUsers().size() == 1) {
+        } else if (msg.getMentionedUsers().size() == 1) { //if a user is mentioned, display the profile of the mentioned user
             //Get target profile pic
             String avatar = msg.getMentionedUsers().get(0).getAvatar().getUrl().toString();
             String username = msg.getMentionedUsers().get(0).getDiscriminatedName();

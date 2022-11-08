@@ -10,6 +10,7 @@ import java.awt.*;
 public class hug implements CommandExecutor {
     @Command(aliases = "hug", description = "Hugs a user")
     public void onHug(MessageCreateEvent message) {
+        //send the message
         message.getChannel().sendMessage(createEmbed(message));
     }
 

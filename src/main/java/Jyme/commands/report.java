@@ -8,7 +8,7 @@ import org.javacord.api.event.message.MessageCreateEvent;
 import java.awt.*;
 
 public class report implements CommandExecutor {
-    @Command(aliases = "report", description = "Report a Bug to the developer")
+    @Command(aliases = {"report", "bug"}, description = "Report a Bug to the developer")
     public void onReport(MessageCreateEvent message) {
     message.getChannel().sendMessage(createEmbed());
     }

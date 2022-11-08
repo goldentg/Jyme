@@ -12,7 +12,7 @@ import org.javacord.api.event.message.MessageCreateEvent;
 public class eightball implements CommandExecutor {
     @Command(aliases = "8ball", description = "Displays a message from a magic 8-ball")
     public void onEightball(MessageCreateEvent message) {
-
+        //create a string array with the possible answers
         String[] responses = new String[]{
                         //no responses
                         "My reply is no",
@@ -41,9 +41,9 @@ public class eightball implements CommandExecutor {
                         "Ask again later"
                 };
 
-
+        //get a random number
         int random = (int) (Math.random() * responses.length);
-        //System.out.println(responses[random]);
+        //send the message
         message.getChannel().sendMessage(createEmbed(responses[random]));
     }
 

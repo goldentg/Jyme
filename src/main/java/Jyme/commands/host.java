@@ -15,26 +15,23 @@ import java.text.NumberFormat;
 public class host implements CommandExecutor {
     @Command(aliases = "host", description = "Displays host information (bot owner only)")
     public void onHost(MessageCreateEvent message) throws IOException {
+        //if the user is the bot owner
         if (message.getMessageAuthor().isBotOwner()) {
             Runtime runtime = Runtime.getRuntime();
             NumberFormat format = NumberFormat.getInstance();
+
             OperatingSystemMXBean operatingSystemMXBean = ManagementFactory.getOperatingSystemMXBean();
 
-           // MBeanServerConnection mbsc = ManagementFactory.getPlatformMBeanServer();
-
-           // OperatingSystemMXBean osMBean = ManagementFactory.newPlatformMXBeanProxy(
-              //      mbsc, ManagementFactory.OPERATING_SYSTEM_MXBEAN_NAME, OperatingSystemMXBean.class);
-
-           // StringBuilder sb = new StringBuilder();
+            //get memory information
             long maxMemory = runtime.maxMemory();
             long allocatedMemory = runtime.totalMemory();
             long freeMemory = runtime.freeMemory();
-
+            //get CPU load
             double cpuLoad = operatingSystemMXBean.getSystemLoadAverage();
-
+            //get host name
             String hostname = InetAddress.getLocalHost().getHostName();
 
-
+            //Send the host information to the channel
             message.getChannel().sendMessage(createEmbed(message, format, maxMemory, allocatedMemory, freeMemory, cpuLoad, hostname));
         } else {
             message.getChannel().sendMessage("You do not have permissions to do this");

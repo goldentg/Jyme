@@ -13,9 +13,12 @@ import java.awt.*;
 public class poll implements CommandExecutor {
     @Command(aliases = "poll", description = "Generates a poll")
     public void onPoll(MessageCreateEvent message, Message msg) {
+        //store the reaction emojis
         String upVote = "⬆";
         String downVote = "⬇";
+        //collect the arguments
         String pollMessage = message.getReadableMessageContent().substring(6);
+        //send the message with reactions
         message.getChannel().sendMessage(createEmbed(message, pollMessage)).thenCompose(message1 -> message1.addReactions(upVote, downVote));
 
     }
