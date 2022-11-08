@@ -46,6 +46,7 @@ This bot is currently still in heavy development. Some commands may not work as 
 | ban | Ban a user              | 
 | say | Make the bot talk       | 
 | poll | Create a community poll |
+| purge | Purge messages          |
 
 `Function`
 ------------

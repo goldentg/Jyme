@@ -69,6 +69,7 @@ public class Main {
         handler.registerCommand(new binary());
         handler.registerCommand(new wolfram());
         handler.registerCommand(new report());
+        handler.registerCommand(new purge());
         //handler.registerCommand(new chuck());
 
         //output status log
