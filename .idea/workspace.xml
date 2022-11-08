@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="678cc791-0a94-4943-9810-de0642211ce2" name="Changes" comment="Fixed kick/ban">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Jyme/commands/purge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Jyme/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Jyme/Main.java" afterDir="false" />
+    <list default="true" id="678cc791-0a94-4943-9810-de0642211ce2" name="Changes" comment="Added purge command">
+      <change beforePath="$PROJECT_DIR$/src/main/java/Jyme/commands/chuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Jyme/commands/chuck.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,7 +183,7 @@
       <workItem from="1667858638227" duration="432000" />
       <workItem from="1667859080339" duration="44000" />
       <workItem from="1667859134656" duration="7521000" />
-      <workItem from="1667876058626" duration="1697000" />
+      <workItem from="1667876058626" duration="2026000" />
     </task>
     <task id="LOCAL-00001" summary="serverinfo">
       <created>1661128843163</created>
@@ -376,7 +374,21 @@
       <option name="project" value="LOCAL" />
       <updated>1667869119219</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Added purge command">
+      <created>1667877812800</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1667877812800</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Added purge command">
+      <created>1667877858202</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1667877858202</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -414,6 +426,7 @@
     <MESSAGE value="Removed some unused packages" />
     <MESSAGE value="README changes" />
     <MESSAGE value="Fixed kick/ban" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed kick/ban" />
+    <MESSAGE value="Added purge command" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added purge command" />
   </component>
 </project>

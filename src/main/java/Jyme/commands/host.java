@@ -25,7 +25,7 @@ public class host implements CommandExecutor {
            // OperatingSystemMXBean osMBean = ManagementFactory.newPlatformMXBeanProxy(
               //      mbsc, ManagementFactory.OPERATING_SYSTEM_MXBEAN_NAME, OperatingSystemMXBean.class);
 
-            StringBuilder sb = new StringBuilder();
+           // StringBuilder sb = new StringBuilder();
             long maxMemory = runtime.maxMemory();
             long allocatedMemory = runtime.totalMemory();
             long freeMemory = runtime.freeMemory();

@@ -19,7 +19,7 @@ public class chuck implements CommandExecutor {
         HttpRequest request = requestFactory.buildGetRequest(new GenericUrl("https://api.chucknorris.io/jokes/random"));
         String response =  request.execute().parseAsString();
         //DeserializationContext objectMapper = null;
-        return message.getChannel().sendMessage(request.toString());
+        return message.getChannel().sendMessage(response);
         //return null;
     }
     //public void onChuck(MessageCreateEvent message) {
