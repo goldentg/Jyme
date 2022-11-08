@@ -18,7 +18,7 @@ public class host implements CommandExecutor {
         if (message.getMessageAuthor().isBotOwner()) {
             Runtime runtime = Runtime.getRuntime();
             NumberFormat format = NumberFormat.getInstance();
-            OperatingSystemMXBean operatingSystemMXBean = (OperatingSystemMXBean) ManagementFactory.getOperatingSystemMXBean();
+            OperatingSystemMXBean operatingSystemMXBean = ManagementFactory.getOperatingSystemMXBean();
 
            // MBeanServerConnection mbsc = ManagementFactory.getPlatformMBeanServer();
 

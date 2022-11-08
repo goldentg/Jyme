@@ -10,6 +10,8 @@ This bot is currently still in heavy development. Some commands may not work as 
 * [Commands](#commands)
 * [Events](#events)
 * [Installation](#installation)
+* [Configuration](#configuration)
+* [Support](#support)
 ***
 
 ## **Commands**

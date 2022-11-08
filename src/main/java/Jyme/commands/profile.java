@@ -14,7 +14,7 @@ public class profile implements CommandExecutor {
         if (msg.getMentionedUsers().size() == 0) {
             //get own profile pic
             String avatar = message.getMessageAuthor().getAvatar().getUrl().toString();
-            String username = message.getMessageAuthor().getDiscriminatedName().toString();
+            String username = message.getMessageAuthor().getDiscriminatedName();
             message.getChannel().sendMessage(createEmbed(message, avatar, username));
         } else if (msg.getMentionedUsers().size() == 1) {
             //Get target profile pic

@@ -20,9 +20,9 @@ import java.util.stream.Collectors;
 
 public class wolfram implements CommandExecutor {
 
-    private String query = "https://api.wolframalpha.com/v1/result?i=<QUERY>&appid=";
-    private String queryLink = "https://www.wolframalpha.com/input/?i=<QUERY>";
-    private String key = "DEMO";
+    private final String query = "https://api.wolframalpha.com/v1/result?i=<QUERY>&appid=";
+    private final String queryLink = "https://www.wolframalpha.com/input/?i=<QUERY>";
+    private final String key = "DEMO";
 
     private Message msg;
 
@@ -48,6 +48,9 @@ public class wolfram implements CommandExecutor {
                             msg.edit(user.getMentionTag(), new EmbedBuilder().setColor(Color.RED).setTitle("Unable to query WolframAlpha"));
                             return null;
                         });
+                if (reader != null) {
+                    reader.close();
+                }
             } catch (IOException e) {
                 msg.edit(user.getMentionTag(), new EmbedBuilder().setColor(Color.RED).setTitle("Unable to query WolframAlpha"));
                 e.printStackTrace();
