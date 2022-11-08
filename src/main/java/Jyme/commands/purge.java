@@ -5,13 +5,9 @@ import de.btobastian.sdcf4j.CommandExecutor;
 import org.javacord.api.entity.message.Message;
 import org.javacord.api.entity.message.MessageSet;
 import org.javacord.api.entity.permission.PermissionType;
-import org.javacord.api.entity.user.User;
 import org.javacord.api.event.message.MessageCreateEvent;
 import org.javacord.api.DiscordApi;
-import org.javacord.api.DiscordApi;
-import org.javacord.api.entity.message.Message;
-import org.javacord.api.entity.user.User;
-import org.javacord.api.event.message.MessageCreateEvent;
+
 
 public class purge implements CommandExecutor {
     @Command(aliases = "purge", description = "Purge messages from a channel")
