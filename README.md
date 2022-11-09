@@ -93,5 +93,6 @@ If you are looking for a more advanced bot, [Check out my C# bot Nyme](https://g
 
 ***
 Made with
+
 <img alt="IntelliJ IDEA logo" height="125" src="https://resources.jetbrains.com.cn/storage/products/company/brand/logos/IntelliJ_IDEA.png" width="500"/>
 ***
