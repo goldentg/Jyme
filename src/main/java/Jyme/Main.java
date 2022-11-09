@@ -112,9 +112,9 @@ public class Main {
 
         //Set bot activity
         //Make sure activity type is valid
-        if (activityType != "") {
+        if (!activityType.isEmpty()) {
             //if activity type is valid
-            if (activity != "") {
+            if (!activity.isEmpty()) {
                 try {
                     //set activity
                     client.updateActivity(ActivityType.valueOf(activityType), activity);
