@@ -33,6 +33,7 @@ This bot is currently still in heavy development. Some commands may not work as 
 | binary | Converts a message into binary | 
 | coinflip | Flips a coin |
 | hug | hug a friend | 
+| slap | slap a friend |
 | 8ball | get some advice from a ball of wisdom | 
  | profile | enlarge a users avatar | 
 
