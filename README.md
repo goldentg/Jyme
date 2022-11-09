@@ -1,6 +1,6 @@
 <h1 align="center">Jyme</h1>
 
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/c6ac604d18a445ae99f34cda5c802ce1)](https://www.codacy.com/gh/goldentg/Jyme/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=goldentg/Jyme&amp;utm_campaign=Badge_Grade)
+[<img alt="Codacy Badge" src="https://app.codacy.com/project/badge/Grade/c6ac604d18a445ae99f34cda5c802ce1"/>](https://www.codacy.com/gh/goldentg/Jyme/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=goldentg/Jyme&amp;utm_campaign=Badge_Grade)
 ***
 This bot is currently still in heavy development. Some commands may not work as intended and new features are being added often. If you experience any issues with the bot you can speed up the development process by posting an issue on the issue board
 ***
@@ -23,19 +23,19 @@ This bot is currently still in heavy development. Some commands may not work as 
 |:------------:|-------------------------------------------------------------------------------------|
 |     host     | Displays information about the bot host machine like memory and CPU information     |
 |   servers    | Displays the amount of servers the bot is in as well as some additional information |
-| stop | Stops the bot |
+|     stop     | Stops the bot                                                                       |
 ***
 
 `Fun`
 ------------
-| Command Name | Command Purpose                                                                     |
-|:------------:|-------------------------------------------------------------------------------------|
-| binary | Converts a message into binary | 
-| coinflip | Flips a coin |
-| hug | hug a friend | 
-| slap | slap a friend |
-| 8ball | get some advice from a ball of wisdom | 
- | profile | enlarge a users avatar | 
+| Command Name | Command Purpose                       |
+|:------------:|---------------------------------------|
+|    binary    | Converts a message into binary        | 
+|   coinflip   | Flips a coin                          |
+|     hug      | hug a friend                          | 
+|     slap     | slap a friend                         |
+|    8ball     | get some advice from a ball of wisdom | 
+ |   profile    | enlarge a users avatar                | 
 
 
 
@@ -43,23 +43,23 @@ This bot is currently still in heavy development. Some commands may not work as 
 ------------
 | Command Name | Command Purpose         |
 |:------------:|-------------------------|
-| kick | Kick a user             |
-| ban | Ban a user              | 
-| say | Make the bot talk       | 
-| poll | Create a community poll |
-| purge | Purge messages          |
+|     kick     | Kick a user             |
+|     ban      | Ban a user              | 
+|     say      | Make the bot talk       | 
+|     poll     | Create a community poll |
+|    purge     | Purge messages          |
 
 `Function`
 ------------
 | Command Name | Command Purpose                                         |
 |:------------:|---------------------------------------------------------|
-| help | Display a list of availible commands with a description | 
-| ping | Ping the bot                                            | 
-| botinfo | Displays some information on the bot  |
-| serverinfo | Displays some info about the server |
-| userinfo | Display some information about a mentioned user |  
-| uptime | See how long the bot has been running |
-| report | Makes it easy for members to report a bug for this bot | 
+|     help     | Display a list of availible commands with a description | 
+|     ping     | Ping the bot                                            | 
+|   botinfo    | Displays some information on the bot                    |
+|  serverinfo  | Displays some info about the server                     |
+|   userinfo   | Display some information about a mentioned user         |  
+|    uptime    | See how long the bot has been running                   |
+|    report    | Makes it easy for members to report a bug for this bot  | 
 
 
 ## **Events**
@@ -93,5 +93,5 @@ If you are looking for a more advanced bot, [Check out my C# bot Nyme](https://g
 
 ***
 Made with
-![IntelliJ IDEA logo](https://resources.jetbrains.com.cn/storage/products/company/brand/logos/IntelliJ_IDEA.png)
+<img alt="IntelliJ IDEA logo" height="125" src="https://resources.jetbrains.com.cn/storage/products/company/brand/logos/IntelliJ_IDEA.png" width="500"/>
 ***

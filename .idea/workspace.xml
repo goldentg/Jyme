@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="678cc791-0a94-4943-9810-de0642211ce2" name="Changes" comment="Better comments">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Jyme/commands/slap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Jyme/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Jyme/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Jyme/commands/hug.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Jyme/commands/hug.java" afterDir="false" />
+    <list default="true" id="678cc791-0a94-4943-9810-de0642211ce2" name="Changes" comment="Update README">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,7 +184,7 @@
       <workItem from="1667859080339" duration="44000" />
       <workItem from="1667859134656" duration="7521000" />
       <workItem from="1667876058626" duration="8036000" />
-      <workItem from="1668015876522" duration="2130000" />
+      <workItem from="1668015876522" duration="2383000" />
     </task>
     <task id="LOCAL-00001" summary="serverinfo">
       <created>1661128843163</created>
@@ -406,7 +403,21 @@
       <option name="project" value="LOCAL" />
       <updated>1667922751314</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="added &quot;slap&quot; command and improved &quot;hug&quot; functionality">
+      <created>1668018430727</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1668018430727</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Update README">
+      <created>1668018539488</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1668018539488</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -447,6 +458,8 @@
     <MESSAGE value="Added purge command" />
     <MESSAGE value="minor code quality enhancements" />
     <MESSAGE value="Better comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="Better comments" />
+    <MESSAGE value="added &quot;slap&quot; command and improved &quot;hug&quot; functionality" />
+    <MESSAGE value="Update README" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update README" />
   </component>
 </project>
