@@ -58,6 +58,7 @@ public class Main {
         handler.registerCommand(new serverInfo());
         handler.registerCommand(new coinflip());
         handler.registerCommand(new hug());
+        handler.registerCommand(new slap());
         handler.registerCommand(new eightball());
         handler.registerCommand(new userInfo());
         handler.registerCommand(new kick());

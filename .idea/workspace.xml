@@ -4,26 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="678cc791-0a94-4943-9810-de0642211ce2" name="Changes" comment="minor code quality enhancements">
+    <list default="true" id="678cc791-0a94-4943-9810-de0642211ce2" name="Changes" comment="Better comments">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Jyme/commands/slap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Jyme/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Jyme/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Jyme/commands/ban.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Jyme/commands/ban.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Jyme/commands/binary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Jyme/commands/binary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Jyme/commands/botInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Jyme/commands/botInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Jyme/commands/coinflip.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Jyme/commands/coinflip.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Jyme/commands/eightball.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Jyme/commands/eightball.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Jyme/commands/host.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Jyme/commands/host.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Jyme/commands/hug.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Jyme/commands/hug.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Jyme/commands/poll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Jyme/commands/poll.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Jyme/commands/profile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Jyme/commands/profile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Jyme/commands/purge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Jyme/commands/purge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Jyme/commands/report.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Jyme/commands/report.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Jyme/commands/say.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Jyme/commands/say.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Jyme/commands/serverInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Jyme/commands/serverInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Jyme/commands/servers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Jyme/commands/servers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Jyme/commands/stop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Jyme/commands/stop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Jyme/commands/uptime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Jyme/commands/uptime.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Jyme/commands/userInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Jyme/commands/userInfo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -201,7 +186,8 @@
       <workItem from="1667858638227" duration="432000" />
       <workItem from="1667859080339" duration="44000" />
       <workItem from="1667859134656" duration="7521000" />
-      <workItem from="1667876058626" duration="6674000" />
+      <workItem from="1667876058626" duration="8036000" />
+      <workItem from="1668015876522" duration="2130000" />
     </task>
     <task id="LOCAL-00001" summary="serverinfo">
       <created>1661128843163</created>
@@ -413,7 +399,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667878210380</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Better comments">
+      <created>1667922751314</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1667922751314</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -453,6 +446,7 @@
     <MESSAGE value="Fixed kick/ban" />
     <MESSAGE value="Added purge command" />
     <MESSAGE value="minor code quality enhancements" />
-    <option name="LAST_COMMIT_MESSAGE" value="minor code quality enhancements" />
+    <MESSAGE value="Better comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="Better comments" />
   </component>
 </project>
