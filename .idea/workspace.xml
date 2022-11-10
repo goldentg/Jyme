@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="678cc791-0a94-4943-9810-de0642211ce2" name="Changes" comment="Update README">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="678cc791-0a94-4943-9810-de0642211ce2" name="Changes" comment="Code Quality improvement">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Jyme/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Jyme/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,7 +185,7 @@
       <workItem from="1667859080339" duration="44000" />
       <workItem from="1667859134656" duration="7521000" />
       <workItem from="1667876058626" duration="8036000" />
-      <workItem from="1668015876522" duration="2383000" />
+      <workItem from="1668015876522" duration="5140000" />
     </task>
     <task id="LOCAL-00001" summary="serverinfo">
       <created>1661128843163</created>
@@ -417,7 +418,35 @@
       <option name="project" value="LOCAL" />
       <updated>1668018539488</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Clean README">
+      <created>1668018704753</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1668018704753</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Clean README">
+      <created>1668018753197</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1668018753197</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Clean README">
+      <created>1668018778887</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1668018778887</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Code Quality improvement">
+      <created>1668019334096</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1668019334096</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -435,8 +464,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="serverinfo" />
-    <MESSAGE value="gitignore" />
     <MESSAGE value="Coinflip command" />
     <MESSAGE value="8-Ball command" />
     <MESSAGE value="userinfo command" />
@@ -460,6 +487,8 @@
     <MESSAGE value="Better comments" />
     <MESSAGE value="added &quot;slap&quot; command and improved &quot;hug&quot; functionality" />
     <MESSAGE value="Update README" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update README" />
+    <MESSAGE value="Clean README" />
+    <MESSAGE value="Code Quality improvement" />
+    <option name="LAST_COMMIT_MESSAGE" value="Code Quality improvement" />
   </component>
 </project>
