@@ -22,8 +22,5 @@ public class chuck implements CommandExecutor {
         return message.getChannel().sendMessage(response);
         //return null;
     }
-    //public void onChuck(MessageCreateEvent message) {
-      //  URLConnection connection = new URL(https://api.chucknorris.io/jokes/random).openConnection();
-        //message.getChannel().sendMessage("https://api.chucknorris.io/jokes/random");
     }
 

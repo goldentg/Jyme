@@ -9,14 +9,6 @@ import org.javacord.api.event.message.MessageCreateEvent;
 import java.awt.*;
 
 public class ping implements CommandExecutor {
-/*
-    @Override
-    public void onMessageCreate(MessageCreateEvent message) {
-    if (message.getMessageContent().equalsIgnoreCase(Main.prefix + "ping")) {
-    message.getChannel().sendMessage("Pong!");
-    }
-    }
-*/
     @Command(aliases = "ping", description = "Displays a pong message")
     public void OnPingCommand(MessageCreateEvent message) {
         message.getChannel().sendMessage(createEmbed(message));
